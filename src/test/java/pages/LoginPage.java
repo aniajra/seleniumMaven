@@ -13,8 +13,8 @@ public class LoginPage {
 	//@FindBy(xpath = " Log in")
 	//WebElement LoginLink;
 
-	//@FindBy(name = "user_login")
-	//WebElement UserName;
+	@FindBy(name = "user_login")
+	WebElement UserName;
 
 	@FindBy(id = "password")
 	WebElement Password;
@@ -39,7 +39,7 @@ public class LoginPage {
 		LoginLink.click();
 
 		// Step2: Enter Username
-		WebElement UserName = driver.findElement(By.name("user_login"));
+		//WebElement UserName = driver.findElement(By.name("user_login"));
 		UserName.sendKeys(userNameVal);
 
 		// Step3: Enter Password
