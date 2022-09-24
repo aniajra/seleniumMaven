@@ -3,3 +3,4 @@ testcases/SeleniumLoginTest.class
 pages/LoginPage.class
 pages/HomePage.class
 testcases/HomeTest.class
+Grid/GridExample.class
