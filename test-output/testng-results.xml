@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-18T17:28:42 AEST" name="Default suite" finished-at="2022-09-18T17:31:15 AEST" duration-ms="152768">
+  <suite started-at="2022-09-25T00:08:43 AEST" name="Default suite" finished-at="2022-09-25T00:09:46 AEST" duration-ms="62917">
     <groups>
     </groups>
-    <test started-at="2022-09-18T17:28:42 AEST" name="Default test" finished-at="2022-09-18T17:31:15 AEST" duration-ms="152768">
+    <test started-at="2022-09-25T00:08:43 AEST" name="Default test" finished-at="2022-09-25T00:09:46 AEST" duration-ms="62917">
       <class name="testcases.SeleniumLoginTest">
-        <test-method is-config="true" signature="DataSetUp()[pri:0, instance:testcases.SeleniumLoginTest@4145bad8]" started-at="2022-09-18T17:28:42 AEST" name="DataSetUp" finished-at="2022-09-18T17:28:43 AEST" duration-ms="699" status="PASS">
+        <test-method is-config="true" signature="DataSetUp()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:08:43 AEST" name="DataSetUp" finished-at="2022-09-25T00:08:44 AEST" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataSetUp -->
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SeleniumLoginTest@4145bad8]" started-at="2022-09-18T17:28:43 AEST" name="SetUp" finished-at="2022-09-18T17:31:02 AEST" duration-ms="139329" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:08:44 AEST" name="SetUp" finished-at="2022-09-25T00:09:04 AEST" duration-ms="19593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,17 +22,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test1()[pri:0, instance:testcases.SeleniumLoginTest@4145bad8]" started-at="2022-09-18T17:31:02 AEST" name="Test1" finished-at="2022-09-18T17:31:15 AEST" duration-ms="12248" status="FAIL">
+        <test-method signature="Test1()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:04 AEST" name="Test1" finished-at="2022-09-25T00:09:16 AEST" duration-ms="11728" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_login']"}
   (Session info: chrome=105.0.5195.125)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Anithas-MBP', ip: 'fd1c:1386:6c9:4300:f921:716:5586:e938%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
+System info: host: 'Anithas-MacBook-Pro.local', ip: 'fe80:0:0:0:46a:4c6d:5d3d:a305%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:56807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b3c4b86027c63946a69c29748cc51d42
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:50207}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf8eba262bb26e308affecfa58cb932b
 *** Element info: {Using=name, value=user_login}]]>
             </message>
             <full-stacktrace>
@@ -40,10 +40,10 @@ Session ID: b3c4b86027c63946a69c29748cc51d42
   (Session info: chrome=105.0.5195.125)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Anithas-MBP', ip: 'fd1c:1386:6c9:4300:f921:716:5586:e938%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
+System info: host: 'Anithas-MacBook-Pro.local', ip: 'fe80:0:0:0:46a:4c6d:5d3d:a305%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:56807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b3c4b86027c63946a69c29748cc51d42
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:50207}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf8eba262bb26e308affecfa58cb932b
 *** Element info: {Using=name, value=user_login}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -59,10 +59,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
 at org.openqa.selenium.By$ByName.findElement(By.java:284)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
-at pages.LoginPage.Login(LoginPage.java:39)
+at pages.LoginPage.Login(LoginPage.java:42)
 at testcases.SeleniumLoginTest.Test1(SeleniumLoginTest.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -98,11 +95,143 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SeleniumLoginTest@4145bad8]" started-at="2022-09-18T17:31:15 AEST" name="TearDown" finished-at="2022-09-18T17:31:15 AEST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:16 AEST" name="TearDown" finished-at="2022-09-25T00:09:16 AEST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="DataClean()[pri:0, instance:testcases.SeleniumLoginTest@4145bad8]" started-at="2022-09-18T17:31:15 AEST" name="DataClean" finished-at="2022-09-18T17:31:15 AEST" duration-ms="226" status="PASS">
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:16 AEST" name="Test2" finished-at="2022-09-25T00:09:16 AEST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'uname' is required by @Test on method Test2 but has not been marked @Optional or defined
+in /private/var/folders/lc/nw2rt7gj2cndk0k4k7x5b2w40000gn/T/testng-eclipse--1155824590/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'uname' is required by @Test on method Test2 but has not been marked @Optional or defined
+in /private/var/folders/lc/nw2rt7gj2cndk0k4k7x5b2w40000gn/T/testng-eclipse--1155824590/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:16 AEST" name="SetUp" finished-at="2022-09-25T00:09:34 AEST" duration-ms="18092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SeleniumLoginTest.Test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test3()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:34 AEST" name="Test3" finished-at="2022-09-25T00:09:46 AEST" duration-ms="12095" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_login']"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Anithas-MacBook-Pro.local', ip: 'fe80:0:0:0:46a:4c6d:5d3d:a305%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:50413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288dc3c84baddb519275bf3b1f866a3b
+*** Element info: {Using=name, value=user_login}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_login']"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Anithas-MacBook-Pro.local', ip: 'fe80:0:0:0:46a:4c6d:5d3d:a305%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/lc/nw2rt7gj2cn...}, goog:chromeOptions: {debuggerAddress: localhost:50413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 288dc3c84baddb519275bf3b1f866a3b
+*** Element info: {Using=name, value=user_login}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.LoginPage.Login(LoginPage.java:42)
+at testcases.SeleniumLoginTest.Test3(SeleniumLoginTest.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:46 AEST" name="TearDown" finished-at="2022-09-25T00:09:46 AEST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="DataClean()[pri:0, instance:testcases.SeleniumLoginTest@1a6d8329]" started-at="2022-09-25T00:09:46 AEST" name="DataClean" finished-at="2022-09-25T00:09:46 AEST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataClean -->
