@@ -59,7 +59,7 @@ public class BaseClass {
 
 		driver.get("https://www.simplilearn.com/");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(11000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().implicitlyWait(12000, TimeUnit.MILLISECONDS);
 
 	}
 
